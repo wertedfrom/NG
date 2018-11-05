@@ -1,0 +1,130 @@
+body{
+  min-width: 575.98px;
+}
+
+.header{
+  background-color: navy;
+}
+
+.circulo-header-wrapper{
+  width:20.5rem;
+  height:20.5rem;
+  background-color: navy;
+  border-radius: 50%;
+  border: 0.1rem solid white;
+}
+
+.circulo-header-wrapper > .circulo-header{
+  /* margin: 0 auto; */
+  width: 20rem;
+  height:20rem;
+  background-color: navy;
+  border-radius: 50%;
+  border: 0.1rem dashed white;
+  /* text-align: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+}
+
+.circulo-header > h2{
+  font-family: "Lobster", cursive;
+  font-size: 2.3rem;
+}
+
+.banner{
+  height: 6rem;
+}
+
+.banner-wrapper > h2{
+  font-size: 1.5rem;
+  color: navy;
+  letter-spacing: 1rem;
+}
+
+.presentacion-p{
+  font-family: 'Bad Script', cursive;
+  font-size: 1.6rem;
+}
+
+.presentacion-p-2{
+  font-family: 'Bad Script', cursive;
+  font-size: 3rem;
+}
+
+.box-card-1{
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  font-size: 1.4rem;
+  min-height: 300px;
+  max-height: 50vw;
+  filter: opacity(85%);
+  color: white;
+}
+
+.box-card-1:hover{
+  filter:brightness(100%);
+  color: #fefbd8;
+}
+
+.icono{
+  font-size: 3rem;
+}
+
+.footer{
+  background-color: #003648;
+  height:300px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .box-card-1{
+    font-size: 1.8em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .icono{
+    font-size: 2.8rem;
+  }
+
+  .box-card-1{
+    font-size: 2.2rem;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .box-card-1{
+    height: 25vw;
+      font-size: 1.8rem;
+  }
+
+  .icono{
+    font-size: 3.5rem;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .box-card-1{
+    height: 25vw;
+      font-size: 1.8rem;
+  }
+
+  .icono{
+    font-size: 3.5rem;
+  }
+}
