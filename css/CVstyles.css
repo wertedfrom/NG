@@ -1,0 +1,64 @@
+body {
+  background-image: url("../img/CV_background.jpeg");
+  background-attachment: fixed;
+  color: #d9d9d9; }
+  body .circulo-header-wrapper {
+    background-image: url("../img/photo.jpeg");
+    background-size: contain;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem; }
+    body .circulo-header-wrapper .circulo-header {
+      width: 11.5rem;
+      height: 11.5rem;
+      border: 0.1rem dashed white;
+      border-radius: 50%; }
+  body h1, body h3, body h4 {
+    font-family: "Lobster", cursive;
+    color: white; }
+  body h2 {
+    color: white; }
+  body h3 {
+    margin-bottom: 1.5rem; }
+  body .icon-bar-left, body .icon-bar-right {
+    position: fixed;
+    top: 5%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+    /* Style the social media icons with color, if you want */ }
+    body .icon-bar-left a, body .icon-bar-right a {
+      display: block;
+      text-align: center;
+      padding: 7px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+      width: 40px; }
+    body .icon-bar-left .back-button, body .icon-bar-right .back-button {
+      background: #000;
+      color: white;
+      opacity: 0.5; }
+    body .icon-bar-left .back-button:hover, body .icon-bar-right .back-button:hover {
+      background: #dc3545;
+      opacity: 1; }
+
+.icon-bar-right {
+  right: 0; }
+  .icon-bar-right a {
+    text-decoration: none;
+    font-weight: bold; }
+  .icon-bar-right .back-button {
+    width: 60px; }
+  .icon-bar-right p {
+    color: #d9d9d9; }
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+
+/*# sourceMappingURL=CVstyles.css.map */
